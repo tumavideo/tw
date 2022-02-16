@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../assets/flex-circle-green.svg";
 import circle from "../assets/circle3-yellow.svg";
 import dots from "../assets/dots3-blue.svg";
 import header from "../assets/Woman-in-tech-copy.jpeg";
