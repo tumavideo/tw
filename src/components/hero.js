@@ -13,7 +13,7 @@ export default function Hero() {
           <div className="flex flex-wrap xl:items-center -mx-4">
             <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
               <h1 className="mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
-                Tuma Work: Opportunities for all Zambian Youths
+                The Portal: Opportunities for all Zambian Youths
               </h1>
               <p className="mb-8 text-lg md:text-xl text-coolGray-500 font-medium">
                 Your one-stop platform for accessing skills, job opportunites,
@@ -23,9 +23,9 @@ export default function Hero() {
                 <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                   <Link
                     className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-green-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-green-500 rounded-md shadow-sm"
-                    to="/"
+                    to="/signup"
                   >
-                    Explore Talent
+                    Register
                   </Link>
                 </div>
                 <div className="w-full md:w-auto py-1 md:py-0">
