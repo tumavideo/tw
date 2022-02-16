@@ -9,51 +9,51 @@ export default function Nav() {
       <nav className="flex justify-between p-6 px-4">
         <div className="flex justify-between items-center w-full">
           <div className="w-1/2 xl:w-1/3">
-            <a className="block max-w-max" href="#">
+            <Link className="block max-w-max" to="#">
               <img className="h-8" src={logo} alt="" />
-            </a>
+            </Link>
           </div>
           <div className="w-1/2 xl:w-1/3">
             <ul className="hidden xl:flex xl:justify-center">
               <li className="mr-12">
-                <a
+                <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  href="#"
+                  to="#"
                 >
                   Skills
-                </a>
+                </Link>
               </li>
               <li className="mr-12">
-                <a
+                <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  href="#"
+                  to="#"
                 >
                   Finance
-                </a>
+                </Link>
               </li>
               <li className="mr-12">
-                <a
+                <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  href="#"
+                  to="#"
                 >
                   Growth
-                </a>
+                </Link>
               </li>
               <li className="mr-12">
-                <a
+                <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  href="#"
+                  to="#"
                 >
                   Jobs
-                </a>
+                </Link>
               </li>
               <li className="mr-12">
-                <a
+                <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  href="#"
+                  to="#"
                 >
                   Markets
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
