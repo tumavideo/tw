@@ -40,7 +40,9 @@ export default function SignUp() {
                   />
                 </div>
                 <div className="mb-6">
-                  <label className="block mb-2 text-coolGray-800 font-medium"></label>
+                  <label className="block mb-2 text-coolGray-800 font-medium">
+                    Name
+                  </label>
                   <input
                     className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
                     type="text"
@@ -48,64 +50,6 @@ export default function SignUp() {
                     placeholder="Full Name"
                   />
                 </div>
-                <div className="mb-6">
-                  <label className="block mb-2 text-coolGray-800 font-medium"></label>
-                  <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                    type="number"
-                    name="age"
-                    placeholder="Age"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label className="block mb-2 text-coolGray-800 font-medium"></label>
-                  <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                    type="text"
-                    name="gender"
-                    placeholder="Gender"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label className="block mb-2 text-coolGray-800 font-medium"></label>
-                  <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                    type="text"
-                    name="city"
-                    placeholder="City/Town"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label className="block mb-2 text-coolGray-800 font-medium"></label>
-                  <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                    type="text"
-                    name="education"
-                    placeholder="Education"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label className="block mb-2 text-coolGray-800 font-medium"></label>
-                  <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                    type="text"
-                    name="income"
-                    placeholder="Income"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label className="block mb-2 text-coolGray-800 font-medium"></label>
-                  <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                    type="text"
-                    name="experience"
-                    placeholder="Experience"
-                  />
-                </div>
-                {/* <Textarea
-                  name="message"
-                  placeholder="Tell us about yourself..."
-                /> */}
                 <div className="mb-4">
                   <label
                     className="block mb-2 text-coolGray-800 font-medium"

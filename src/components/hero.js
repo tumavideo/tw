@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import logo from "../assets/flex-circle-green.svg";
+import circle from "../assets/circle3-yellow.svg";
+import dots from "../assets/dots3-blue.svg";
+import header from "../assets/Woman-in-tech-copy.jpeg";
+
 export default function Hero() {
   return (
     <>
@@ -38,19 +43,15 @@ export default function Hero() {
               <div className="relative mx-auto md:mr-0 max-w-max">
                 <img
                   className="absolute z-10 -left-14 -top-12 w-28 md:w-auto"
-                  src="flex-ui-assets/elements/circle3-yellow.svg"
+                  src={circle}
                   alt=""
                 />
                 <img
                   className="absolute z-10 -right-7 -bottom-8 w-28 md:w-auto"
-                  src="flex-ui-assets/elements/dots3-blue.svg"
+                  src={dots}
                   alt=""
                 />
-                <img
-                  className="relative rounded-7xl"
-                  src="flex-ui-assets/images/headers/header.jpg"
-                  alt=""
-                />
+                <img className="relative rounded-7xl" src={header} alt="" />
               </div>
             </div>
           </div>
