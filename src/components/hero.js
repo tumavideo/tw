@@ -12,8 +12,8 @@ export default function Hero() {
                 Tuma Work: Opportunities for all Zambian Youths
               </h1>
               <p className="mb-8 text-lg md:text-xl text-coolGray-500 font-medium">
-                We’re different. Leading digital content for a new era. For
-                Zambia, by Zambians.
+                Your one-stop platform for accessing skills, job opportunites,
+                funding, business and career development.
               </p>
               <div className="flex flex-wrap">
                 <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">

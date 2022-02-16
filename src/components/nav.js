@@ -20,7 +20,7 @@ export default function Nav() {
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
                   to="/"
                 >
-                  Skills
+                  About Us
                 </Link>
               </li>
               <li className="mr-12">
@@ -28,7 +28,7 @@ export default function Nav() {
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
                   to="/"
                 >
-                  Finance
+                  Services
                 </Link>
               </li>
               <li className="mr-12">
@@ -36,7 +36,7 @@ export default function Nav() {
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
                   to="/"
                 >
-                  Growth
+                  FAQs
                 </Link>
               </li>
               <li className="mr-12">
@@ -44,7 +44,7 @@ export default function Nav() {
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
                   to="/"
                 >
-                  Jobs
+                  Contact
                 </Link>
               </li>
               <li className="mr-12">

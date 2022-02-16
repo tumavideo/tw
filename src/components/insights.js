@@ -9,10 +9,10 @@ export default function Insights() {
           Features
         </span>
         <h1 class="mb-4 text-3xl md:text-4xl leading-tight font-bold tracking-tighter">
-          The Portal
+          Finding Opportunities for Zambians
         </h1>
         <p class="text-lg md:text-xl text-coolGray-500 font-medium">
-          Single point of entry for youth opportunities in Zambia.
+          The single point of entry for youth opportunities in Zambia.
         </p>
       </div>
       <div class="flex flex-wrap -mx-4">
@@ -36,7 +36,7 @@ export default function Insights() {
               Acquire Skills
             </h3>
             <p class="text-coolGray-500 font-medium">
-              Once skills gap has been identifed, develop and hone these skills
+              Once a skill gap has been identifed, develop and hone these skills
             </p>
           </div>
         </div>
@@ -57,11 +57,11 @@ export default function Insights() {
               </svg>
             </div>
             <h3 class="mb-4 text-xl md:text-2xl leading-tight font-bold">
-              Access Financing
+              Funding
             </h3>
             <p class="text-coolGray-500 font-medium">
-              Access to start-up funding and enterprise growth financing (Grants
-              &amp; loans) through private and public sector institution.
+              Access to funding for start-ups, business growth, skills and
+              career training bursaries.
             </p>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function Insights() {
               </svg>
             </div>
             <h3 class="mb-4 text-xl md:text-2xl leading-tight font-bold">
-              Business &amp; Project Development Services
+              Growth
             </h3>
             <p class="text-coolGray-500 font-medium">
               Provide business support to start-up’s and established MSMEs in
@@ -111,8 +111,7 @@ export default function Insights() {
               Marketplace
             </h3>
             <p class="text-coolGray-500 font-medium">
-              Access to local, regional and international markets for your
-              products and services.
+              Linking sellers to buyers.
             </p>
           </div>
         </div>
@@ -136,9 +135,9 @@ export default function Insights() {
               Jobs
             </h3>
             <p class="text-coolGray-500 font-medium">
-              Find jobs, research careers, and learn about special programs for
-              jobseekers. Match interests, work values and skills with the world
-              of work.
+              Find jobs and employees. Match interests, work values and skills
+              with the world of work, as well as, hire people that fit your
+              criteria.
             </p>
           </div>
         </div>
