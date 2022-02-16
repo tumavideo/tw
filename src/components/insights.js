@@ -147,7 +147,7 @@ export default function Insights() {
         <div className="fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-white">
           <nav className="relative p-6 h-full overflow-y-auto">
             <div className="flex flex-col justify-between h-full">
-              <Link className="inline-block" to="#">
+              <Link className="inline-block" to="/">
                 <img
                   className="h-8"
                   src="flex-ui-assets/logos/flex-ui-green-light.svg"
@@ -158,7 +158,7 @@ export default function Insights() {
                 <li>
                   <Link
                     className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="#"
+                    to="/"
                   >
                     Skills
                   </Link>
@@ -166,7 +166,7 @@ export default function Insights() {
                 <li>
                   <Link
                     className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="#"
+                    to="/"
                   >
                     Finance
                   </Link>
@@ -174,7 +174,7 @@ export default function Insights() {
                 <li>
                   <Link
                     className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="#"
+                    to="/"
                   >
                     Growth
                   </Link>
@@ -182,7 +182,7 @@ export default function Insights() {
                 <li>
                   <Link
                     className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="#"
+                    to="/"
                   >
                     Jobs
                   </Link>
@@ -190,7 +190,7 @@ export default function Insights() {
                 <li>
                   <Link
                     className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="#"
+                    to="/"
                   >
                     Markets
                   </Link>
@@ -216,7 +216,7 @@ export default function Insights() {
               </div>
             </div>
           </nav>
-          <Link className="navbar-close absolute top-5 p-4 right-3" to="#">
+          <Link className="navbar-close absolute top-5 p-4 right-3" to="/">
             <svg
               width="12"
               height="12"

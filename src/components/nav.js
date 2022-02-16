@@ -9,7 +9,7 @@ export default function Nav() {
       <nav className="flex justify-between p-6 px-4">
         <div className="flex justify-between items-center w-full">
           <div className="w-1/2 xl:w-1/3">
-            <Link className="block max-w-max" to="#">
+            <Link className="block max-w-max" href="/">
               <img className="h-8" src={logo} alt="" />
             </Link>
           </div>
@@ -18,7 +18,7 @@ export default function Nav() {
               <li className="mr-12">
                 <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  to="#"
+                  href="/"
                 >
                   Skills
                 </Link>
@@ -26,7 +26,7 @@ export default function Nav() {
               <li className="mr-12">
                 <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  to="#"
+                  href="/"
                 >
                   Finance
                 </Link>
@@ -34,7 +34,7 @@ export default function Nav() {
               <li className="mr-12">
                 <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  to="#"
+                  href="/"
                 >
                   Growth
                 </Link>
@@ -42,7 +42,7 @@ export default function Nav() {
               <li className="mr-12">
                 <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  to="#"
+                  href="/"
                 >
                   Jobs
                 </Link>
@@ -50,7 +50,7 @@ export default function Nav() {
               <li className="mr-12">
                 <Link
                   className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-                  to="#"
+                  href="/"
                 >
                   Markets
                 </Link>

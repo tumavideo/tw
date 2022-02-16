@@ -15,7 +15,7 @@ export default function Login() {
           <div className="w-full md:w-3/5 lg:w-1/2">
             <div className="max-w-sm mx-auto">
               <div className="mb-6 text-center">
-                <Link className="inline-block mb-6" to="#">
+                <Link className="inline-block mb-6" to="/">
                   <img className="h-16" src={logo} alt="" />
                 </Link>
                 <h3 className="mb-4 text-2xl md:text-3xl font-bold">
@@ -69,7 +69,7 @@ export default function Login() {
                   <div className="w-full md:w-auto mt-1">
                     <Link
                       className="inline-block text-xs font-medium text-green-500 hover:text-green-600"
-                      to="#"
+                      to="/"
                     >
                       Forgot your password?
                     </Link>
@@ -77,7 +77,7 @@ export default function Login() {
                 </div>
                 <Link
                   className="inline-block py-3 px-7 mb-6 w-full text-base text-green-50 font-medium text-center leading-6 bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm"
-                  to="#"
+                  to="/"
                 >
                   Sign In
                 </Link>
