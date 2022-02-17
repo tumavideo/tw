@@ -21,30 +21,30 @@ export default function SignUp() {
                 <h3 className="mb-4 text-2xl md:text-3xl font-bold">
                   Register for an account
                 </h3>
-                <p className="text-lg text-coolGray-500 font-medium">
+                <p className="text-lg text-gray-500 font-medium">
                   Start your job search
                 </p>
               </div>
               <form action="">
                 <div className="mb-6">
                   <label
-                    className="block mb-2 text-coolGray-800 font-medium"
+                    className="block mb-2 text-gray-800 font-medium"
                     htmlFor=""
                   >
                     Email
                   </label>
                   <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
+                    className="appearance-none block w-full p-3 leading-5 text-gray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
                     type="email"
-                    placeholder="dev@shuffle.dev"
+                    placeholder="email@work.co.zm"
                   />
                 </div>
                 <div className="mb-6">
-                  <label className="block mb-2 text-coolGray-800 font-medium">
+                  <label className="block mb-2 text-gray-800 font-medium">
                     Name
                   </label>
                   <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
+                    className="appearance-none block w-full p-3 leading-5 text-gray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
                     type="text"
                     name="name"
                     placeholder="Full Name"
@@ -52,13 +52,13 @@ export default function SignUp() {
                 </div>
                 <div className="mb-4">
                   <label
-                    className="block mb-2 text-coolGray-800 font-medium"
+                    className="block mb-2 text-gray-800 font-medium"
                     htmlFor=""
                   >
                     Password
                   </label>
                   <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
+                    className="appearance-none block w-full p-3 leading-5 text-gray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
                     type="password"
                     placeholder="************"
                   />
@@ -75,7 +75,7 @@ export default function SignUp() {
                         src="flex-ui-assets/elements/sign-up/checkbox-icon.svg"
                         alt=""
                       />
-                      <span className="ml-7 text-xs text-coolGray-800 font-medium">
+                      <span className="ml-7 text-xs text-gray-800 font-medium">
                         Remember me
                       </span>
                     </label>
@@ -99,7 +99,7 @@ export default function SignUp() {
                   <span className="text-xs font-medium">Have an account? </span>
                   <Link
                     className="inline-block text-xs font-medium text-green-500 hover:text-green-600 hover:underline"
-                    to="login"
+                    to="/login"
                   >
                     Sign in
                   </Link>

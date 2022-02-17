@@ -25,26 +25,26 @@ export default function Login() {
               <form action="">
                 <div className="mb-6">
                   <label
-                    className="block mb-2 text-coolGray-800 font-medium"
+                    className="block mb-2 text-gray-800 font-medium"
                     htmlFor=""
                   >
                     Email
                   </label>
                   <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
+                    className="appearance-none block w-full p-3 leading-5 text-gray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
                     type="email"
-                    placeholder="dev@shuffle.dev"
+                    placeholder="email@work.co.zm"
                   />
                 </div>
                 <div className="mb-4">
                   <label
-                    className="block mb-2 text-coolGray-800 font-medium"
+                    className="block mb-2 text-gray-800 font-medium"
                     htmlFor=""
                   >
                     Password
                   </label>
                   <input
-                    className="appearance-none block w-full p-3 leading-5 text-coolGray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
+                    className="appearance-none block w-full p-3 leading-5 text-gray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
                     type="password"
                     placeholder="************"
                   />
@@ -61,7 +61,7 @@ export default function Login() {
                         src="flex-ui-assets/elements/sign-up/checkbox-icon.svg"
                         alt=""
                       />
-                      <span className="ml-7 text-xs text-coolGray-800 font-medium">
+                      <span className="ml-7 text-xs text-gray-800 font-medium">
                         Remember me
                       </span>
                     </label>
@@ -87,7 +87,7 @@ export default function Login() {
                   </span>
                   <Link
                     className="inline-block text-xs font-medium text-green-500 hover:text-green-600 hover:underline"
-                    to="signup"
+                    to="/signup"
                   >
                     Sign up
                   </Link>

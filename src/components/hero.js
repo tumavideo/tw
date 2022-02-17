@@ -15,7 +15,7 @@ export default function Hero() {
               <h1 className="mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
                 The Portal: Opportunities for all Zambian Youths
               </h1>
-              <p className="mb-8 text-lg md:text-xl text-coolGray-500 font-medium">
+              <p className="mb-8 text-lg md:text-xl text-gray-500 font-medium">
                 Your one-stop platform for accessing skills, job opportunites,
                 funding, business and career development.
               </p>
@@ -30,7 +30,7 @@ export default function Hero() {
                 </div>
                 <div className="w-full md:w-auto py-1 md:py-0">
                   <Link
-                    className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-coolGray-800 font-medium text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-coolGray-200 focus:ring-opacity-50 border border-coolGray-200 rounded-md shadow-sm"
+                    className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-gray-800 font-medium text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-coolGray-200 focus:ring-opacity-50 border border-coolGray-200 rounded-md shadow-sm"
                     to="/"
                   >
                     Find Jobs

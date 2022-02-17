@@ -1,24 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Insights() {
+export default function Features() {
   return (
     <>
-      <div class="md:max-w-4xl mb-12 mx-auto text-center">
-        <span class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm">
+      <div className="md:max-w-4xl mb-12 mx-auto text-center">
+        <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm">
           Features
         </span>
-        <h1 class="mb-4 text-3xl md:text-4xl leading-tight font-bold tracking-tighter">
+        <h1 className="mb-4 text-3xl md:text-4xl leading-tight font-bold tracking-tighter">
           Finding Opportunities for Zambians
         </h1>
-        <p class="text-lg md:text-xl text-coolGray-500 font-medium">
+        <p className="text-lg md:text-xl text-gray-500 font-medium">
           The single point of entry for youth opportunities in Zambia.
         </p>
       </div>
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-          <div class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
-            <div class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
+      <div className="flex flex-wrap -mx-4">
+        <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
+            <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
               <svg
                 width="24"
                 height="21"
@@ -32,17 +32,17 @@ export default function Insights() {
                 ></path>
               </svg>
             </div>
-            <h3 class="mb-4 text-xl md:text-2xl leading-tight font-bold">
+            <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
               Acquire Skills
             </h3>
-            <p class="text-coolGray-500 font-medium">
+            <p className="text-gray-500 font-medium">
               Once a skill gap has been identifed, develop and hone these skills
             </p>
           </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-          <div class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
-            <div class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
+        <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
+            <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
               <svg
                 width="22"
                 height="12"
@@ -56,18 +56,18 @@ export default function Insights() {
                 ></path>
               </svg>
             </div>
-            <h3 class="mb-4 text-xl md:text-2xl leading-tight font-bold">
+            <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
               Funding
             </h3>
-            <p class="text-coolGray-500 font-medium">
+            <p className="text-gray-500 font-medium">
               Access to funding for start-ups, business growth, skills and
               career training bursaries.
             </p>
           </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-          <div class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
-            <div class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
+        <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
+            <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
               <svg
                 width="22"
                 height="18"
@@ -81,19 +81,19 @@ export default function Insights() {
                 ></path>
               </svg>
             </div>
-            <h3 class="mb-4 text-xl md:text-2xl leading-tight font-bold">
+            <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
               Growth
             </h3>
-            <p class="text-coolGray-500 font-medium">
+            <p className="text-gray-500 font-medium">
               Provide business support to start-up’s and established MSMEs in
               form of capacity building and training, on-the-job coaching,
               mentorship and hands-on advisory services.
             </p>
           </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-          <div class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
-            <div class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
+        <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
+            <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
               <svg
                 width="24"
                 height="24"
@@ -107,17 +107,17 @@ export default function Insights() {
                 ></path>
               </svg>
             </div>
-            <h3 class="mb-4 text-xl md:text-2xl leading-tight font-bold">
+            <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
               Marketplace
             </h3>
-            <p class="text-coolGray-500 font-medium">
+            <p className="text-gray-500 font-medium">
               Linking sellers to buyers.
             </p>
           </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-          <div class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
-            <div class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
+        <div className="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200">
+            <div className="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg">
               <svg
                 width="20"
                 height="20"
@@ -131,10 +131,10 @@ export default function Insights() {
                 ></path>
               </svg>
             </div>
-            <h3 class="mb-4 text-xl md:text-2xl leading-tight font-bold">
+            <h3 className="mb-4 text-xl md:text-2xl leading-tight font-bold">
               Jobs
             </h3>
-            <p class="text-coolGray-500 font-medium">
+            <p className="text-gray-500 font-medium">
               Find jobs and employees. Match interests, work values and skills
               with the world of work, as well as, hire people that fit your
               criteria.
@@ -143,7 +143,7 @@ export default function Insights() {
         </div>
       </div>
       <div className="navbar-menu hidden fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50">
-        <div className="fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-white">
+        <div className="fixed top-0 left-0 bottom-0 w-full max-w-xs bg-white">
           <nav className="relative p-6 h-full overflow-y-auto">
             <div className="flex flex-col justify-between h-full">
               <Link className="inline-block" to="/">
@@ -154,51 +154,27 @@ export default function Insights() {
                 />
               </Link>
               <ul className="py-6">
-                <li>
-                  <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="/"
-                  >
-                    Skills
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="/"
-                  >
-                    Finance
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="/"
-                  >
-                    Growth
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="/"
-                  >
-                    Jobs
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md"
-                    to="/"
-                  >
-                    Markets
-                  </Link>
-                </li>
+                {[
+                  ["Skills", "/"],
+                  ["Finance", "/"],
+                  ["Growth", "/"],
+                  ["Jobs", "/"],
+                  ["Markets", "/"],
+                ].map(([title, url], index) => (
+                  <li key={index}>
+                    <Link
+                      className="block py-3 px-4 text-gray-500 hover:text-gray-900 font-medium hover:bg-coolGray-50 rounded-md"
+                      to={url}
+                    >
+                      {title}
+                    </Link>
+                  </li>
+                ))}
               </ul>
               <div className="flex flex-wrap">
                 <div className="w-full mb-2">
                   <Link
-                    className="inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent font-medium text-center rounded-md"
+                    className="inline-block py-2 px-4 w-full text-sm leading-5 text-gray-500 hover:text-gray-900 bg-transparent font-medium text-center rounded-md"
                     to="login"
                   >
                     Log In
