@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <div className="bg-transparent">
-        <Nav />
+        {/* <Nav /> */}
         <Hero />
         <Features />
       </div>

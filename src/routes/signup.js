@@ -1,10 +1,84 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import bgImage from "../assets/black-businesscopy.jpeg";
 import logo from "../assets/flex-circle-green.svg";
+import FormInput from "../components/formInput";
+
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
+import { firebaseConfig } from "../firebase";
 
 export default function SignUp() {
+  const firebaseApp = initializeApp(firebaseConfig);
+  const db = getDatabase(firebaseApp);
+
+  const [values, setValues] = useState({
+    email: "",
+    name: "",
+    number: "",
+    password: "",
+    confirmPassword: "",
+  });
+
+  const inputs = [
+    {
+      id: 1,
+      name: "email",
+      type: "email",
+      placeholder: "email@work.co.zm",
+      errorMessage: "It should be a valid email address!",
+      label: "Email",
+      required: true,
+    },
+    {
+      id: 2,
+      name: "name",
+      type: "text",
+      placeholder: "Full Name",
+      errorMessage: "Name cannot be empty!",
+      label: "Name",
+      required: true,
+    },
+    {
+      id: 4,
+      name: "number",
+      type: "text",
+      placeholder: "Phone number",
+      errorMessage: "It should be a valid phone number!",
+      label: "Contact Number (optional)",
+    },
+    {
+      id: 6,
+      name: "password",
+      type: "password",
+      placeholder: "************",
+      errorMessage:
+        "Password should be 8-20 characters and include at least 1 letter, 1 number and 1 special character!",
+      label: "Password",
+      pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
+      required: true,
+    },
+    {
+      id: 7,
+      name: "confirmPassword",
+      type: "password",
+      placeholder: "Confirm Password",
+      errorMessage: "Passwords don't match!",
+      label: "Confirm Password",
+      pattern: values.password,
+      required: true,
+    },
+  ];
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
+  const onChange = (e) => {
+    setValues({ ...values, [e.target.name]: e.target.value });
+  };
+
   return (
     <div className="signup">
       <section
@@ -25,44 +99,15 @@ export default function SignUp() {
                   Start your job search
                 </p>
               </div>
-              <form action="">
-                <div className="mb-6">
-                  <label
-                    className="block mb-2 text-gray-800 font-medium"
-                    htmlFor=""
-                  >
-                    Email
-                  </label>
-                  <input
-                    className="appearance-none block w-full p-3 leading-5 text-gray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                    type="email"
-                    placeholder="email@work.co.zm"
+              <form onSubmit={handleSubmit}>
+                {inputs.map((input) => (
+                  <FormInput
+                    key={input.id}
+                    {...input}
+                    value={values[input.name]}
+                    onChange={onChange}
                   />
-                </div>
-                <div className="mb-6">
-                  <label className="block mb-2 text-gray-800 font-medium">
-                    Name
-                  </label>
-                  <input
-                    className="appearance-none block w-full p-3 leading-5 text-gray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                    type="text"
-                    name="name"
-                    placeholder="Full Name"
-                  />
-                </div>
-                <div className="mb-4">
-                  <label
-                    className="block mb-2 text-gray-800 font-medium"
-                    htmlFor=""
-                  >
-                    Password
-                  </label>
-                  <input
-                    className="appearance-none block w-full p-3 leading-5 text-gray-900 border border-coolGray-200 rounded-lg shadow-md placeholder-coolGray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
-                    type="password"
-                    placeholder="************"
-                  />
-                </div>
+                ))}
                 <div className="flex flex-wrap items-center justify-between mb-6">
                   <div className="w-full md:w-1/2">
                     <label className="relative inline-flex items-center">
@@ -89,12 +134,12 @@ export default function SignUp() {
                     </Link>
                   </div>
                 </div>
-                <Link
+                <button
                   className="inline-block py-3 px-7 mb-6 w-full text-base text-green-50 font-medium text-center leading-6 bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm"
-                  to="/"
+                  type="submit"
                 >
                   Register
-                </Link>
+                </button>
                 <p className="text-center">
                   <span className="text-xs font-medium">Have an account? </span>
                   <Link
@@ -109,7 +154,7 @@ export default function SignUp() {
           </div>
         </div>
         <img
-          class="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-cover"
+          className="md:absolute md:top-0 md:right-0 mx-auto md:h-full md:w-2/5 lg:w-1/2 md:object-cover"
           src={bgImage}
           alt=""
         />
