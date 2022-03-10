@@ -21,7 +21,8 @@ export default function Hero() {
               <br />
               <p className="mb-8 text-lg md:text-xl text-gray-500 font-medium">
                 Your one-stop platform for accessing skills, job opportunites,
-                funding, business and career development.
+                market access, funding, business and career development
+                services.
               </p>
               <p className="mb-8 text-lg md:text-xl text-gray-500 font-medium">
                 Stay ahead by registering and being the first to know once the

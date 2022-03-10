@@ -129,7 +129,7 @@ export default function PreRegistration() {
       custom: (
         <Select
           onChange={(e) => onChange(e)}
-          label={"Please choose your personal status"}
+          label={"What is your employment status?"}
           menuItems={personalStatus}
           title={"Business"}
         />

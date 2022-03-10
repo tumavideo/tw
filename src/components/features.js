@@ -5,7 +5,7 @@ export default function Features() {
   return (
     <div className="text-center">
       <h1 className="mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
-        Coming Soon!
+        Coming Soon in 2022
       </h1>
       {/* <div className="md:max-w-4xl mb-12 mx-auto text-center">
         <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm">
