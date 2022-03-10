@@ -9,7 +9,7 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set } from "firebase/database";
 import { firebaseConfig } from "../firebase";
 
-import "./prereg.css";
+import "./preregister.css";
 import Select from "../components/select";
 
 export default function PreRegistration() {
