@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
+import { useForm } from "react-hook-form";
 
 import bgImage from "../assets/black-businesscopy.jpeg";
 import logo from "../assets/flex-circle-green.svg";
@@ -16,7 +17,7 @@ export default function PreRegistration() {
   const firebaseApp = initializeApp(firebaseConfig);
   const db = getDatabase(firebaseApp);
 
-  const [values, setValues] = useState({
+  const defaultValues = {
     age: "",
     business: "",
     education: "",
@@ -29,7 +30,9 @@ export default function PreRegistration() {
     occupation: "",
     sectors: "",
     status: "",
-  });
+  };
+
+  const [values, setValues] = useState(defaultValues);
 
   const onChange = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });
@@ -135,14 +138,16 @@ export default function PreRegistration() {
       id: 9,
       name: "status",
       custom: (
-        <Select
-          key="9"
-          name="status"
-          onChange={(e) => onChange(e)}
-          label={"What is your employment status?"}
-          menuItems={personalStatus}
-          title={"Employment"}
-        />
+        <div className="mb-2">
+          <Select
+            key="9"
+            name="status"
+            onChange={(e) => onChange(e)}
+            label={"What is your employment status?"}
+            menuItems={personalStatus}
+            title={"Employment"}
+          />
+        </div>
       ),
     },
     {
@@ -198,7 +203,9 @@ export default function PreRegistration() {
     },
   ];
 
-  const handleSubmit = (e) => {
+  let formRef = React.useRef(null);
+
+  const onSubmit = () => {
     set(ref(db, "users/" + new Date().getTime().toString()), {
       age: values.age,
       business: values.business,
@@ -212,9 +219,14 @@ export default function PreRegistration() {
       occupation: values.occupation,
       sectors: values.sectors,
       status: values.status,
+    }).then(() => {
+      formRef.current.reset();
     });
-    e.preventDefault();
   };
+
+  const { handleSubmit, formState } = useForm({
+    mode: "onChange",
+  });
 
   return (
     <div className="signup">
@@ -232,8 +244,13 @@ export default function PreRegistration() {
                 <h3 className="mb-4 text-2xl md:text-3xl font-bold">
                   Pre Registration
                 </h3>
+                {formState.isSubmitted && (
+                  <div className="alert">
+                    Your information has been registered
+                  </div>
+                )}
               </div>
-              <form onSubmit={handleSubmit}>
+              <form ref={formRef} onSubmit={handleSubmit(onSubmit)}>
                 {inputs.map((input) =>
                   input.custom ? (
                     input.custom
@@ -249,6 +266,7 @@ export default function PreRegistration() {
                 <button
                   className="full inline-block py-3 px-7 mb-6 w-full text-base text-green-50 font-medium text-center leading-6 bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm"
                   type="submit"
+                  disabled={!formState.isValid || formState.isSubmitting}
                 >
                   Register
                 </button>

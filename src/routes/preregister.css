@@ -1,4 +1,11 @@
-/* FORM STYLES */
+.alert {
+  background: #22c55e;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
 .contact form {
   display: grid;
   grid-template-columns: 1fr 1fr;
