@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 import Login from "./routes/login";
-import PreRegistration from "./routes/prereg";
+import PreRegistration from "./routes/preregister";
 import SignUp from "./routes/signup";
 
 ReactDOM.render(
