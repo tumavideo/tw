@@ -5,14 +5,7 @@ import bgImage from "../assets/black-businesscopy.jpeg";
 import logo from "../assets/flex-circle-green.svg";
 import FormInput from "../components/formInput";
 
-import { initializeApp } from "firebase/app";
-import { getDatabase } from "firebase/database";
-import { firebaseConfig } from "../firebase";
-
 export default function SignUp() {
-  const firebaseApp = initializeApp(firebaseConfig);
-  const db = getDatabase(firebaseApp);
-
   const [values, setValues] = useState({
     email: "",
     name: "",

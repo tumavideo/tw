@@ -61,9 +61,6 @@ export default function PreRegistration() {
     "Southern",
   ];
 
-  const phoneRegExp =
-    /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
-
   const inputs = [
     {
       id: 1,
@@ -187,7 +184,7 @@ export default function PreRegistration() {
   ];
 
   const handleSubmit = (e) => {
-    set(ref(db, "users/" + "ristenrois"), {
+    set(ref(db, "users/" + new Date().getTime().toString()), {
       age: values.age,
       business: values.business,
       education: values.education,
