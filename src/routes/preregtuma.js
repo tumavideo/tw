@@ -34,19 +34,6 @@ export default function PreRegistrationTuma() {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
-  const personalStatus = ["Entrepreneur", "Employed", "Unemployed"];
-
-  const educationLevel = [
-    "Primary",
-    "Secondary",
-    "Certificate",
-    "Diploma",
-    "Degree",
-    "Masters",
-    "Doctorate",
-    "Not applicable",
-  ];
-
   const provinces = [
     "Central",
     "Copperbelt",
