@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Select({ label, menuItems, onChange, title }) {
+export default function Select({ label, menuItems, name, onChange, title }) {
   return (
     <>
       <label>{title}</label>
@@ -28,6 +28,7 @@ export default function Select({ label, menuItems, onChange, title }) {
       focus:ring-opacity-50"
         aria-label=".form-select-lg example"
         onChange={onChange}
+        name={name}
       >
         <option selected>{label}</option>
         {menuItems.map((item, index) => (

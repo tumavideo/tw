@@ -101,6 +101,7 @@ export default function PreRegistration() {
       name: "gender",
       custom: (
         <Select
+          name="gender"
           onChange={(e) => onChange(e)}
           label={"Please choose your gender"}
           menuItems={["Male", "Female", "Other"]}
@@ -113,6 +114,7 @@ export default function PreRegistration() {
       name: "location",
       custom: (
         <Select
+          name="location"
           onChange={(e) => onChange(e)}
           label={"Please choose your province"}
           menuItems={provinces}
@@ -125,6 +127,7 @@ export default function PreRegistration() {
       name: "status",
       custom: (
         <Select
+          name="status"
           onChange={(e) => onChange(e)}
           label={"What is your employment status?"}
           menuItems={personalStatus}
@@ -137,6 +140,7 @@ export default function PreRegistration() {
       name: "education",
       custom: (
         <Select
+          name="education"
           onChange={(e) => onChange(e)}
           label={"Please choose your education level"}
           menuItems={educationLevel}
