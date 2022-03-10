@@ -6,6 +6,7 @@ import "./index.css";
 import Login from "./routes/login";
 import PreRegistration from "./routes/preregister";
 import SignUp from "./routes/signup";
+import Thanks from "./routes/thanks";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route path="login" element={<Login />} />
         <Route path="preregister" element={<PreRegistration />} />
         <Route path="signup" element={<SignUp />} />
+        <Route path="thanks" element={<Thanks />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

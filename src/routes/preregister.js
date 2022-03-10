@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 
 import bgImage from "../assets/black-businesscopy.jpeg";
@@ -16,6 +16,7 @@ import Select from "../components/select";
 export default function PreRegistration() {
   const firebaseApp = initializeApp(firebaseConfig);
   const db = getDatabase(firebaseApp);
+  const navigate = useNavigate();
 
   const defaultValues = {
     age: "",
@@ -220,7 +221,7 @@ export default function PreRegistration() {
       sectors: values.sectors,
       status: values.status,
     }).then(() => {
-      formRef.current.reset();
+      navigate("/thanks");
     });
   };
 
