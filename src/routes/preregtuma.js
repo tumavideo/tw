@@ -192,7 +192,7 @@ export default function PreRegistrationTuma() {
                   )
                 )}
                 <button
-                  className="full inline-block py-3 px-7 mb-6 w-full text-base text-green-50 font-medium text-center leading-6 bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm"
+                  className="full inline-block py-3 px-7 mb-6 w-full text-base text-green-50 font-medium text-center leading-6 bg-cyan-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm"
                   type="submit"
                   disabled={!formState.isValid || formState.isSubmitting}
                 >

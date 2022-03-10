@@ -1,8 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/tv_icon.png";
 
 export default function Features() {
   return (
     <div className="text-center">
+      <Link className="inline-block mb-6" to="/preregistertuma">
+        <img className="h-16" src={logo} alt="" />
+      </Link>
       <h1 className="mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
         Coming Soon in 2022
       </h1>
