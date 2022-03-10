@@ -101,6 +101,7 @@ export default function PreRegistration() {
       name: "gender",
       custom: (
         <Select
+          key="6"
           name="gender"
           onChange={(e) => onChange(e)}
           label={"Please choose your gender"}
@@ -114,32 +115,42 @@ export default function PreRegistration() {
       name: "location",
       custom: (
         <Select
+          key="7"
           name="location"
           onChange={(e) => onChange(e)}
           label={"Please choose your province"}
           menuItems={provinces}
-          title={"Provinces"}
+          title={"Province"}
         />
       ),
     },
     {
       id: 8,
+      name: "city",
+      type: "text",
+      placeholder: "What city do you live in?",
+      label: "City",
+    },
+    {
+      id: 9,
       name: "status",
       custom: (
         <Select
+          key="9"
           name="status"
           onChange={(e) => onChange(e)}
           label={"What is your employment status?"}
           menuItems={personalStatus}
-          title={"Business"}
+          title={"Employment"}
         />
       ),
     },
     {
-      id: 9,
+      id: 10,
       name: "education",
       custom: (
         <Select
+          key="10"
           name="education"
           onChange={(e) => onChange(e)}
           label={"Please choose your education level"}
@@ -149,21 +160,21 @@ export default function PreRegistration() {
       ),
     },
     {
-      id: 10,
+      id: 11,
       name: "business",
       type: "text",
       placeholder: "What business do you do?",
       label: "Business",
     },
     {
-      id: 11,
+      id: 12,
       name: "occupation",
       type: "text",
       placeholder: "What is your current occupation?",
       label: "Occupation",
     },
     {
-      id: 12,
+      id: 13,
       name: "obstacles",
       custom: (
         <p className="full">
@@ -179,7 +190,7 @@ export default function PreRegistration() {
       ),
     },
     {
-      id: 13,
+      id: 14,
       name: "sectors",
       type: "text", // multi-text
       placeholder: "What sectors are you interested in?",

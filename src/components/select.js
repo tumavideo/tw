@@ -30,9 +30,11 @@ export default function Select({ label, menuItems, name, onChange, title }) {
         onChange={onChange}
         name={name}
       >
-        <option selected>{label}</option>
+        <option defaultValue>{label}</option>
         {menuItems.map((item, index) => (
-          <option value={index}>{item}</option>
+          <option key={`option-${index}`} value={index}>
+            {item}
+          </option>
         ))}
       </select>
     </>
