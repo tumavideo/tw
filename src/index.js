@@ -5,6 +5,7 @@ import App from "./App";
 import "./index.css";
 import Login from "./routes/login";
 import PreRegistration from "./routes/preregister";
+import PreRegistrationTuma from "./routes/preregtuma";
 import SignUp from "./routes/signup";
 import Thanks from "./routes/thanks";
 
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="login" element={<Login />} />
         <Route path="preregister" element={<PreRegistration />} />
+        <Route path="preregistertuma" element={<PreRegistrationTuma />} />
         <Route path="signup" element={<SignUp />} />
         <Route path="thanks" element={<Thanks />} />
       </Routes>
