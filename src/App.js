@@ -7,14 +7,14 @@ const App = () => {
     <>
       <SectionWrapper
         title="Earn, Connect, Explore"
-        description="TumaVideo creates an environment for you to earn while you create the content you love. Discover new challenges and earn real cash for the first time in Zambia paid directly to you mobile money account."
+        description="TumaVideo creates an environment for you to earn while you create the content you love. Discover new challenges and earn real cash for the first time in Zambia paid directly to your mobile money account."
         showBtn
         mockupImg={assets.hero}
         banner="banner"
       />
       <SectionWrapper
         title="Create a tribe of followers"
-        description="Find friends, invite your contacts and follow accounts that speak your creative language. From DIY creatives, to local masters in their fields sharing exciting, relative content waiting for you to discover!"
+        description="Find friends, invite your contacts and follow accounts that speak your creative language. From DIY creatives to local masters in their fields sharing exciting, relative content waiting for you to discover!"
         mockupImg={assets.cards}
         reverse
       />

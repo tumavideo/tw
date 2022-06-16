@@ -20,11 +20,11 @@ const Features = () => {
           </h1>
           <p className={`${styles.pText} ${styles.whiteText}`}>
             Participate in exciting challenges designed to inspire creativity
-            and build awareness around important topics that affect us as a
-            youth! If there is a challenge you have in mind, we are always
-            willing and excited to chat with you to see how we can help spread
-            the message, while giving participants the opportunity to be
-            rewarded for their creativity with cash prizes.
+            and build awareness around important topics that affect us as youth!
+            If there is a challenge you have in mind, we are always willing and
+            excited to chat with you to see how we can help spread the message,
+            while giving participants the opportunity to be rewarded for their
+            creativity with cash prizes.
           </p>
         </div>
 
