@@ -16,7 +16,7 @@ const Features = () => {
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
           <h1 className={`${styles.h1Text} ${styles.whiteText}`}>
-            Zale Challenges
+            Zali Challenges
           </h1>
           <p className={`${styles.pText} ${styles.whiteText}`}>
             Participate in exciting challenges designed to inspire creativity

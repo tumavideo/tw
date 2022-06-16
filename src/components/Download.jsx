@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "../styles/Global";
 import assets from "../assets";
+import Button from "./Button";
 
 const Download = () => {
   return (
@@ -17,7 +18,12 @@ const Download = () => {
             enjoyed creating it for you!
           </p>
         </div>
-        <button className={styles.btnPrimary}>Download</button>
+        <Button
+          assetUrl={assets.playBadge}
+          link="//play.google.com/apps/internaltest/4701663563049486766"
+        >
+          Download
+        </Button>
         <div className={styles.flexCenter}>
           <img
             src={assets.scene}
