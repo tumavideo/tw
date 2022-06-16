@@ -19,9 +19,12 @@ const Features = () => {
             Zale Challenges
           </h1>
           <p className={`${styles.pText} ${styles.whiteText}`}>
-            TumaVideo helps you earn while you create the content you love.
-            Discover new challenges and earn real cash rewards paid directly to
-            you.
+            Participate in exciting challenges designed to inspire creativity
+            and build awareness around important topics that affect us as a
+            youth! If there is a challenge you have in mind, we are always
+            willing and excited to chat with you to see how we can help spread
+            the message, while giving participants the opportunity to be
+            rewarded for their creativity with cash prizes.
           </p>
         </div>
 
