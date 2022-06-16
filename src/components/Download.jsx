@@ -12,10 +12,12 @@ const Download = () => {
             Download the app
           </h1>
           <p className={`${styles.pText} ${styles.blackText}`}>
-            Get the app on the Playstore
+            We created this app for you! Built by Zambians, for Zambians to
+            express our culture our way. We hope you. enjoy it as much as we
+            enjoyed creating it for you!
           </p>
         </div>
-        <button className={styles.btnPrimary}>App</button>
+        <button className={styles.btnPrimary}>Download</button>
         <div className={styles.flexCenter}>
           <img
             src={assets.scene}

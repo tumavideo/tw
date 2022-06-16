@@ -6,28 +6,28 @@ const App = () => {
   return (
     <>
       <SectionWrapper
-        title="Create content..."
-        description="...with easy, vibrant and interactive tools that celebrate your diversity and take you to the future. Go from sign up to viral in a few clicks."
+        title="Earn, Connect, Explore"
+        description="...by filling in your profile with verified details and your preferred terms. Make extra cash by winning challenges or creating exclusive content for your own custom audience."
         showBtn
         mockupImg={assets.homeHero}
         banner="banner"
       />
       <SectionWrapper
-        title="Follow accounts..."
-        description="...that you love and build a tribe that builds you. From masterclasses to funny content, there's a TumaVideo for you."
+        title="Create a tribe of followers"
+        description="Find friends, invite your contacts and follow accounts that speak your creative language. From DIY creatives, to local masters in their fields sharing exciting, relative content waiting for you to discover!"
         mockupImg={assets.homeCards}
         reverse
       />
       <Features />
       <SectionWrapper
-        title="Discover..."
-        description="...new ways to create, earn and connect with an app made for you. TumaVideo is Truly Zambian built to show off your creativity."
+        title="Zale Challenges"
+        description="Participate in exciting challenges designed to inspire creativity and build awareness around important topics that affect us as a youth! If there is a challenge you have in mind, we are always willing and excited to chat with you to see how we can help spread the message, while giving participants the opportunity to be rewarded for their creativity with cash prizes."
         mockupImg={assets.feature}
         reverse
       />
       <SectionWrapper
-        title="Earn..."
-        description="...by filling in your profile with verified details and your preferred terms. Make extra cash by winning challenges or creating exclusive content for your own custom audience."
+        title="Find the latest news from various sources"
+        description="We believe knowledge is power, and we have partnered with some trusted news providers to keep you up to date. Easy to find, and enjoyable articles on the app with the added bounce of earning real money by keeping up with Zambian current affairs."
         mockupImg={assets.mockup}
         banner="banner02"
       />
