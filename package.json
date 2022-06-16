@@ -1,18 +1,14 @@
 {
-  "name": "tumawork",
-  "version": "0.1.0",
+  "name": "tumavideo",
+  "version": "0.0.1",
   "private": true,
+  "homepage": ".",
   "dependencies": {
-    "@headlessui/react": "^1.5.0",
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.2",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "dayjs": "^1.10.7",
-    "firebase": "^9.6.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-hook-form": "^7.27.1",
-    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
@@ -41,8 +37,8 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.6",
-    "tailwindcss": "^3.0.22"
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
   }
 }
