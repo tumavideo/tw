@@ -22,7 +22,7 @@ const App = () => {
       <SectionWrapper
         title="Find the latest news from various sources"
         description="We believe knowledge is power, and we have partnered with some trusted news providers to keep you up to date. Easy to find, and enjoyable articles on the app with the added bounce of earning real money by keeping up with Zambian current affairs."
-        mockupImg={assets.mockup}
+        mockupImg={assets.mockup2}
         reverse
       />
       <SectionWrapper
