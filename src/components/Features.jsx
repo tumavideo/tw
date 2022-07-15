@@ -29,8 +29,11 @@ const Features = () => {
         </div>
 
         <div className={styles.flexWrap}>
-          <FeatureCard iconUrl={assets.react} iconText="Company Logo 1" />
-          <FeatureCard iconUrl={assets.javascript} iconText="Company Logo 2" />
+          <FeatureCard
+            iconUrl={assets.csc}
+            iconText="Crowdsource Creators Ltd"
+          />
+          <FeatureCard iconUrl={assets.tv} iconText="TumaVideo" />
         </div>
       </div>
     </div>
