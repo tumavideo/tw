@@ -3,6 +3,7 @@ import React from "react";
 import styles from "../styles/Global";
 import assets from "../assets";
 import Button from "./Button";
+import Header from "./Header";
 
 const SectionWrapper = ({
   title,
@@ -11,6 +12,7 @@ const SectionWrapper = ({
   mockupImg,
   banner,
   reverse,
+  addLogo = false,
 }) => {
   return (
     <div
@@ -34,6 +36,7 @@ const SectionWrapper = ({
           ${reverse ? styles.blackText : styles.whiteText}
           ${styles.h1Text}`}
           >
+            {addLogo && <Header />}
             {title}
           </h1>
           <p

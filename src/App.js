@@ -11,6 +11,7 @@ const App = () => {
         showBtn
         mockupImg={assets.hero}
         banner="banner"
+        addLogo={true}
       />
       <SectionWrapper
         title="Create a tribe of followers"

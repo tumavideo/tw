@@ -5,6 +5,7 @@ import feature from "./feature.png";
 import hero from "./home_hero.png";
 import hero2 from "./home_hero2.png";
 import tv from "./tv_icon.png";
+import logo from "./logo.svg";
 import mockup from "./mockup.png";
 import mockup2 from "./mockup2.png";
 import playBadge from "./google-play-badge.svg";
@@ -19,6 +20,7 @@ const components = {
   feature,
   expo,
   expo02,
+  logo,
   playBadge,
   scene,
   mockup,
