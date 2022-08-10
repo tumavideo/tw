@@ -12,7 +12,7 @@ export default function Header() {
         marginBottom: 20,
       }}
     >
-      <img src={assets.logo} alt="SVG as an image" />
+      <img src={assets.logo} alt="TumaVideo logo" />
     </div>
   );
 }
